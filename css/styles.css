@@ -543,6 +543,9 @@ pre code {
   margin-left: auto;
 }
 
+
+
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -3957,6 +3960,8 @@ input[type=button].btn-block {
     flex-flow: row nowrap;
     justify-content: flex-start;
   }
+
+  
   .navbar-expand-sm .navbar-nav {
     flex-direction: row;
   }
@@ -10311,6 +10316,8 @@ header.masthead .masthead-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+
+  
 }
 .team-member {
   margin-bottom: 3rem;
@@ -10391,6 +10398,10 @@ section#contact form#contactForm :-ms-input-placeholder {
     margin-bottom: 1rem;
 }
 
+
+  
+
+
 #mainNav.navbar-shrink {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -10405,6 +10416,10 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+
+
+
 }
 
 
@@ -10555,6 +10570,7 @@ header.masthead .masthead-heading {
   position: relative;
   margin-right: 15px;
   margin-left: 15px;
+  margin-bottom: 25px;
   padding: 88px 17px 40px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -10736,3 +10752,50 @@ html.w-mod-js *[data-ix="show-call-back-popup"] {
 .page-section-turnos {
   padding-top: 9rem;
 }
+
+.header-search{
+  height: 550px;
+  width: 94%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.507)), to(rgba(0, 0, 0, 0.507))), url("../images/farmacia-turnos.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url("../images/farmacia-turnos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 55%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto 0px;
+  text-align: center;
+}
+
+@media (max-width: 768px)  {
+  .header-search {
+    height: 350px;
+  }
+}
+
+@media (max-width: 575px)  {
+  .header-search {
+    height: 300px;
+  }
+}
+
+@media (max-width: 425px)  {
+  .header-search {
+    height: 280px;
+  }
+}
+
+
+@media (max-width: 375px)  {
+  .header-search {
+    height: 250px;
+  }
+}
+
+@media (max-width: 320px)  {
+  .header-search {
+    height: 250px;
+  }
+}
+
